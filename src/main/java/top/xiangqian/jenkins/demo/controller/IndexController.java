@@ -16,6 +16,6 @@ public class IndexController {
 
     @GetMapping("hello")
     public String hello() {
-        return "hello,world";
+        return "hello,world; nihao,shijie";
     }
 }
